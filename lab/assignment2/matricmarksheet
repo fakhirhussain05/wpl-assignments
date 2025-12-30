@@ -1,0 +1,97 @@
+
+<html>
+<head>
+  <title>Marks Sheet SSC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+<center><h2>BOARD OF SECONDARY EDUCATION KARACHI</h2>
+    <h3>Statement of Marks</h3>
+<h3>S.S.C EXAMINATION </h3>
+<H3>SCIENCE GROUP</H3>
+</center>
+<p><b>EXAMINATION:</b>ANNUAL 2020<br>
+<b>Roll No:</b> 313906<br>
+<b>Name:</b> FAKHIR HUSSAIN<br>
+<b>Father's Name:</b> ZAHID HUSSAIN<br>
+<b>DATE OF BIRTH:</b> 05-07-2002<br>
+<b>NAME OF SCHOOL:</b> HAPPY PALACE SECONDARY SCHOOL</p>
+
+<table border="1" cellspacing="0" cellpadding="5">
+ <tr>
+    <th rowspan="2">S.No</th>
+    <th rowspan="2">Subjects</th>
+    <th colspan="2">Maximum Marks</th>
+    <th colspan="2">Minimum Marks</th>
+    <th colspan="3">Obtained Marks</th>
+    <th rowspan="2">Remarks</th>
+  </tr>
+  <tr>
+    <th>TH</th>
+    <th>PR</th>
+    <th>TH</th>
+    <th>PR</th>
+    <th>TH</th>
+    <th>PR</th>
+    <th>Total</th>
+  </tr>
+
+  <tr>
+    <td>1</td><td>Sindhi Salees</td><td>75</td><td>-</td><td>25</td><td>-</td><td>39</td><td>-</td><td>39</td><td></td>
+  </tr>
+  <tr>
+    <td>2</td><td>Urdu Normal</td><td>75</td><td>-</td><td>25</td><td>-</td><td>XX</td><td>-</td><td>XX</td><td></td>
+  </tr>
+  <tr>
+    <td>3</td><td>English Paper I</td><td>75</td><td>-</td><td>25</td><td>-</td><td>50</td><td>-</td><td>50</td><td></td>
+  </tr>
+  <tr>
+    <td>4</td><td>English Paper II</td><td>75</td><td>-</td><td>25</td><td>-</td><td>XX</td><td>-</td><td>XX</td><td></td>
+  </tr>
+  <tr>
+    <td>5</td><td>Pakistan Studies</td><td>75</td><td>-</td><td>25</td><td>-</td><td>54</td><td>-</td><td>54</td><td></td>
+  </tr>
+  <tr>
+    <td>6</td><td>Computer Studies</td><td>75</td><td>25</td><td>25</td><td>8</td><td>23</td><td>61</td><td>84</td><td></td>
+  </tr>
+  <tr>
+    <td>7</td><td>Chemistry</td><td>85</td><td>15</td><td>28</td><td>5</td><td>48</td><td>15</td><td>63</td><td></td>
+  </tr>
+  <tr>
+    <td>8</td><td>Islamiat</td><td>75</td><td>-</td><td>25</td><td>-</td><td>XX</td><td>-</td><td>XX</td><td></td>
+  </tr>
+  <tr>
+    <td>9</td><td>Mathematics</td><td>100</td><td>-</td><td>33</td><td>-</td><td>XX</td><td>-</td><td>XX</td><td></td>
+  </tr>
+  <tr>
+    <td>10</td><td>Physics</td><td>85</td><td>15</td><td>28</td><td>5</td><td>XX</td><td>XX</td><td>XX</td><td></td>
+  </tr>
+</table>
+
+
+<br>
+
+<center>
+  <b>Grand Total:</b> 589 / 850 <b>Grade:</b> B <br>
+  (3% marks have been added to the obtained score of class 9th)
+</center>
+
+<br><br>
+
+</html>

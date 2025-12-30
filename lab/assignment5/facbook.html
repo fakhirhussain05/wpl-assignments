@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook Signup UI</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+        .container-box {
+            max-width: 420px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .fb-logo {
+            color: #1877f2;
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .signup-btn {
+            background-color: #42b72a;
+            color: white;
+            font-weight: bold;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-box">
+
+    <div class="fb-logo">facebook</div>
+    <p class="text-center text-muted">Create a new account</p>
+
+    <form action="http://localhost:81/wpl/signup/facebook.php" method="POST" onsubmit="return validateForm()">
+
+        <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name">
+        <div id="fullname_error" class="error"></div>
+
+        <input type="text" class="form-control" id="email" name="email" placeholder="Email address">
+        <div id="email_error" class="error"></div>
+
+        <input type="password" class="form-control" id="password" name="password" placeholder="New password">
+        <div id="password_error" class="error"></div>
+
+        <button type="submit" class="btn signup-btn btn-block mt-3">
+            Sign Up
+        </button>
+
+    </form>
+
+</div>
+
+<script>
+function validateForm() {
+
+    let valid = true;
+
+    // FULL NAME
+    let fullname = document.getElementById('fullname').value;
+    let fullnameRegex = /^[A-Za-z]+(?: [A-Za-z]+)+$/;
+    if (!fullnameRegex.test(fullname)) {
+        document.getElementById('fullname_error').innerHTML = "Enter your full name";
+        valid = false;
+    } else {
+        document.getElementById('fullname_error').innerHTML = "";
+    }
+
+    // EMAIL
+    let email = document.getElementById('email').value;
+    let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(email)) {
+        document.getElementById('email_error').innerHTML = "Enter a valid email";
+        valid = false;
+    } else {
+        document.getElementById('email_error').innerHTML = "";
+    }
+
+    
+   var password = document.getElementById('password').value;
+if (password != '') {
+    var passwordRegex = /^[A-Za-z0-9]{6,}$/;
+    var testPassword = passwordRegex.test(password);
+    alert(testPassword);
+} else {
+    document.getElementById('password_error').innerHTML =
+        'Password must be at least 6 characters';
+}
+
+
+    return valid;
+}
+</script>
+
+</body>
+</html>

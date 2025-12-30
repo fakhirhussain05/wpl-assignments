@@ -1,0 +1,81 @@
+
+<html>
+<head>
+  <title>Marks Sheet H.S.C</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+
+<body>
+<center><h2>BOARD OF INTERMEDIATE EDUCATION KARACHI</h2>
+<h3>H.S.C PART - I & II INTERMEDIATE EXAMINATION (Annual - 2022)</h3>
+<h3>Statement of Marks</h3>
+</center>
+<p><b>Marks Sheet No:</b> 00194436-5<br>
+<b>Group:</b> PRE-ENGINEERING <br>
+<b>Roll No:</b> 230045<br>
+<b>Enrollment No/registration no :</b> ISJ1/SE/E-0081/2021<br>
+<b>Name:</b> FAKHIR HUSSAIN <br>
+<b>Father's Name:</b> ZAHID HUSSAIN <br>
+<b>College / Private:</b> ISLAMIA GOVT. SCIENCE COLLEGE </p>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Subject</th>
+    <th colspan="2">Part I Marks</th>
+    <th colspan="2">Part II Marks</th>
+    <th colspan="2">Combined</th>
+    <th>Remarks</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Max</th>
+    <th>Secured</th>
+    <th>Max</th>
+    <th>Secured</th>
+    <th>Max</th>
+    <th>Secured</th>
+    <th></th>
+  </tr>
+
+  <tr><td>Urdu Normal</td><td>100</td><td>60</td><td>100</td><td>47</td><td>200</td><td>107</td><td>Pass</td></tr>
+  <tr><td>English Normal</td><td>100</td><td>60</td><td>100</td><td>65</td><td>200</td><td>125</td><td>Pass</td></tr>
+  <tr><td>Islamic Education</td><td>50</td><td>30</td><td>-</td><td>-</td><td>50</td><td>30</td><td>Pass</td></tr>
+  <tr><td>Pakistan Studies</td><td>-</td><td>-</td><td>50</td><td>33</td><td>50</td><td>33</td><td>Pass</td></tr>
+  <tr><td>Chemistry</td><td>100</td><td>54</td><td>85</td><td>45</td><td>170</td><td>99</td><td>Pass</td></tr>
+  <tr><td>Physics</td><td>100</td><td>40</td><td>100</td><td>54</td><td>170</td><td>94</td><td>Pass</td></tr>
+  <tr><td>Mathematics</td><td>100</td><td>58</td><td>100</td><td>64</td><td>200</td><td>139</td><td>Pass</td></tr>
+
+    <tr>
+    <th>Total</th>
+    <th>Max Mark I</th>
+    <th>Secured Mark I</th>
+    <th>Max Mark II</th>
+    <th>Secured Mark II</th>
+    <th>Total Max Marks</th>
+    <th>Total Secured Marks</th>
+    <th>Grade</th>
+    </tr>
+
+    <tr><td></td><td>500</td><td>320</td><td>550</td><td>322</td><td>1100</td><td>642</td><td>C</td></tr>
+    <tr><td><b>In Words:</b></td><td colspan="7">Six Hundred Forty Two Only</td></tr>
+    <tr><td><b>Grace/Grade Raised:</b></td><td colspan="7"></td></tr>
+</table>
+
+</html>

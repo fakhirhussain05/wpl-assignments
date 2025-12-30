@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 80px 300px 60px;
+    gap: 10px;
+}
+
+/* Common Item Style */
+.item {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* Grid Positions */
+.header {
+    grid-column: 1 / 3;
+}
+
+.footer {
+    grid-column: 1 / 3;
+}
